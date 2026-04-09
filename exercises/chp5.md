@@ -19,7 +19,7 @@
 - input 문으로 임의의 날짜 입력받음
 - days( ), days_left( ), week( ), week_name( )을 출력
 
-소스코드
+    - 소스코드
 
     class SayDays :
         def __init__(self, year, month, day):
