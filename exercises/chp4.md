@@ -31,14 +31,14 @@
         else :  
             print("평일")
 3. for 문을 이용해 1~50의 짝수 합을 구하되, 3의 배수는 제외하세요.
-  - 소스코드<br>
+    - 소스코드<br>
   
-        sum = 0  
-        for i in range(1, 51) :  
-            if i % 3 == 0 :  
-                continue  
-            sum += i  
-        print(sum)  
+          sum = 0  
+          for i in range(1, 51) :  
+              if i % 3 == 0 :  
+                  continue  
+              sum += i  
+          print(sum)  
 4. 연습문제 4.3을 while 문으로 해결하세요. 
 - while문을 사용하여 1~50까지의 짝수 합을 구하되, 3의 배수는 제외하여 출력
   - 소스코드<br>
