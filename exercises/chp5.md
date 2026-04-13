@@ -64,7 +64,7 @@
     - 실행문
 
             while True :
-                inp = input("날짜 입력(종료 : q) : ")
+                inp = input("날짜 띄어서 입력(종료 : q) : ")
         
             if inp[0] == 'q' :
                 break
