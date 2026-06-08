@@ -428,7 +428,7 @@ expected_size = (WIDTH * HEIGHT) // 8  # 64*48/8 = 384바이트
 for index, data in enumerate(raw_frames):
     actual_size = len(data)
     if actual_size != expected_size:
-        print(f"❌ [에러 확인] {index + 1}번째 프레임의 크기가 잘못되었습니다!")
+        print(f"[에러 확인] {index + 1}번째 프레임의 크기가 잘못되었습니다!")
         print(f"   -> 예상 규격: {expected_size}바이트 / 실제 입력: {actual_size}바이트")
         print(f"   -> {'개수가 부족합니다' if actual_size < expected_size else '개수가 너무 많습니다'}. 숫자를 다시 확인해 주세요.\n")
 # ------------------------------------------------
