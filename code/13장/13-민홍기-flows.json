@@ -1,0 +1,1970 @@
+[
+    {
+        "id": "f89b3214bcedc5f5",
+        "type": "tab",
+        "label": "13-1  pir-gas",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "706d3770a0ea7e2f",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "디바이스 연결 여부 ",
+        "style": {
+            "label": true,
+            "fill": "#ffffbf",
+            "fill-opacity": "0.21"
+        },
+        "nodes": [
+            "eadf1ba1750de978",
+            "225956c08617f266"
+        ],
+        "x": 314,
+        "y": 79,
+        "w": 512,
+        "h": 82
+    },
+    {
+        "id": "4588cdf2e6cf0c23",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "수신 간격 조정",
+        "style": {
+            "fill": "#ffffbf",
+            "fill-opacity": "0.21",
+            "label": true
+        },
+        "nodes": [
+            "7487bf1ba1c49ce5",
+            "258eb834ab20b4a9",
+            "89159480a981b467",
+            "c775edaa11e02213",
+            "38290826a7821246",
+            "84e4d8e9020892d6",
+            "3183653edefea13c",
+            "8e73106cd1ea5770",
+            "eab5ce82d3fc3787"
+        ],
+        "x": 314,
+        "y": 199,
+        "w": 892,
+        "h": 262
+    },
+    {
+        "id": "9d5bd3f60aa80cd7",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "조도 센서 값",
+        "style": {
+            "label": true,
+            "fill": "#bfdbef",
+            "fill-opacity": "0.25"
+        },
+        "nodes": [
+            "e250cdbc90946def",
+            "6e59f6b7edbe4a1e",
+            "5f2dcf38bcd48fc1",
+            "9d9b0b0be32ec91b",
+            "ed4a2e6d1677f75d",
+            "b910b1810284cd4a",
+            "d4bd6cdff425b929",
+            "5ef4716bb33278b5",
+            "20e5ad28c1c31352"
+        ],
+        "x": 314,
+        "y": 519,
+        "w": 812,
+        "h": 202
+    },
+    {
+        "id": "c02bc73f92b38b40",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "조도 기준",
+        "style": {
+            "label": true,
+            "fill": "#bfdbef",
+            "fill-opacity": "0.25"
+        },
+        "nodes": [
+            "5aa7cc6d960372c9",
+            "a5e2baa185ed7a50",
+            "f919fc992ca02cc4",
+            "365ec0be6bc71052",
+            "838c9079335319e7"
+        ],
+        "x": 324,
+        "y": 759,
+        "w": 802,
+        "h": 142
+    },
+    {
+        "id": "23d9ea9fe8277936",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "가스 센서 값",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf",
+            "fill-opacity": "0.25"
+        },
+        "nodes": [
+            "48e8ebe411b51c94",
+            "59027c5c60db8891",
+            "ce0bf6ebfd92387e",
+            "ae4f0fd12e155579",
+            "c11cbd414ba6281a",
+            "3c7f9e0644fc755c",
+            "c665b6bd5a9dbf97"
+        ],
+        "x": 314,
+        "y": 1699,
+        "w": 732,
+        "h": 202
+    },
+    {
+        "id": "f96c76f6980d3c0a",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "가스 기준",
+        "style": {
+            "label": true,
+            "fill": "#ffff3f",
+            "fill-opacity": "0.15"
+        },
+        "nodes": [
+            "caf5bb5829335571",
+            "30a8f9faa2e00a1e",
+            "f0f17a0f59ad549a",
+            "f45142ac5336c389",
+            "884d4226c7a387ee",
+            "548551568babd8f2",
+            "c0ef77f76697c2ee"
+        ],
+        "x": 324,
+        "y": 1459,
+        "w": 802,
+        "h": 202
+    },
+    {
+        "id": "a119b1b10466261d",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "PIR",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf",
+            "fill-opacity": "0.23"
+        },
+        "nodes": [
+            "b4cb4dcd6864b9d4",
+            "622f8d5d27809f3d",
+            "4de8d9c3b1b45efb"
+        ],
+        "x": 314,
+        "y": 939,
+        "w": 692,
+        "h": 122
+    },
+    {
+        "id": "d614b66ead45aec5",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "가스 누출 경고",
+        "style": {
+            "label": true,
+            "fill": "#ffbfbf",
+            "fill-opacity": "0.23"
+        },
+        "nodes": [
+            "8e6fc542b5baecbd",
+            "7b443c6091da99ac",
+            "04fbd17e3b940132",
+            "df2ed7218dbb454c",
+            "f1902dcd95cacd48"
+        ],
+        "x": 314,
+        "y": 1959,
+        "w": 752,
+        "h": 222
+    },
+    {
+        "id": "005881bb8e4584bb",
+        "type": "group",
+        "z": "f89b3214bcedc5f5",
+        "name": "LED_1 제어 하기",
+        "style": {
+            "label": true,
+            "fill": "#ff7f7f",
+            "fill-opacity": "0.13"
+        },
+        "nodes": [
+            "2be73f0960518f39",
+            "d490705351e7b53e",
+            "a3f66cce0bcd18db",
+            "76c0623520f4813c",
+            "8cb670b34bdf40a7",
+            "c4cd764cf3132e98",
+            "da2a798c8b8d9047"
+        ],
+        "x": 314,
+        "y": 1079,
+        "w": 832,
+        "h": 282
+    },
+    {
+        "id": "eadf1ba1750de978",
+        "type": "mqtt in",
+        "z": "f89b3214bcedc5f5",
+        "g": "706d3770a0ea7e2f",
+        "name": "a1)tele/ut_iot_2026/device/LWTtele/ESP32-01/LWT",
+        "topic": "tele/ut_iot_2026/device/LWT",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5599e344e541a16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 530,
+        "y": 120,
+        "wires": [
+            [
+                "225956c08617f266"
+            ]
+        ]
+    },
+    {
+        "id": "225956c08617f266",
+        "type": "ui-text",
+        "z": "f89b3214bcedc5f5",
+        "g": "706d3770a0ea7e2f",
+        "group": "e0a71bc26ae2a7c4",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "a2)LWT",
+        "label": "기기연결",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 740,
+        "y": 120,
+        "wires": []
+    },
+    {
+        "id": "7487bf1ba1c49ce5",
+        "type": "mqtt in",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "name": "a3)tele/ut_iot_2026/device/INFO",
+        "topic": "tele/ut_iot_2026/device/INFO",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5599e344e541a16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 470,
+        "y": 240,
+        "wires": [
+            [
+                "c775edaa11e02213"
+            ]
+        ]
+    },
+    {
+        "id": "258eb834ab20b4a9",
+        "type": "mqtt in",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "name": "a7)stat/ut_iot_2026/device/TELEPERIOD",
+        "topic": "stat/ut_iot_2026/device/TELEPERIOD",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5599e344e541a16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 500,
+        "y": 420,
+        "wires": [
+            [
+                "3183653edefea13c"
+            ]
+        ]
+    },
+    {
+        "id": "89159480a981b467",
+        "type": "mqtt out",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "name": "a9)cmnd/ut_iot_2026/device/TELEPERIOD",
+        "topic": "cmnd/ut_iot_2026/device/TELEPERIOD",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "b5599e344e541a16",
+        "x": 1010,
+        "y": 420,
+        "wires": []
+    },
+    {
+        "id": "c775edaa11e02213",
+        "type": "switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "name": "a4)TELEPERIOD",
+        "property": "payload.TELEPERIOD",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 490,
+        "y": 300,
+        "wires": [
+            [
+                "38290826a7821246"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "38290826a7821246",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "name": "a5)TELEPERIOD",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.TELEPERIOD",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 690,
+        "y": 300,
+        "wires": [
+            [
+                "84e4d8e9020892d6",
+                "3183653edefea13c"
+            ]
+        ]
+    },
+    {
+        "id": "84e4d8e9020892d6",
+        "type": "ui-text",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "group": "e0a71bc26ae2a7c4",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "a6)TELEPERIOD",
+        "label": "수신간격",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 930,
+        "y": 300,
+        "wires": []
+    },
+    {
+        "id": "3183653edefea13c",
+        "type": "ui-dropdown",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "group": "e0a71bc26ae2a7c4",
+        "name": "a8)수신간격 조정",
+        "label": "시간선택:",
+        "tooltip": "",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "multiple": false,
+        "chips": true,
+        "clearable": false,
+        "options": [
+            {
+                "label": "1초",
+                "value": "1",
+                "type": "str"
+            },
+            {
+                "label": "5초",
+                "value": "5",
+                "type": "str"
+            },
+            {
+                "label": "10초",
+                "value": "10",
+                "type": "str"
+            },
+            {
+                "label": "1분",
+                "value": "60",
+                "type": "str"
+            },
+            {
+                "label": "5분",
+                "value": "300",
+                "type": "str"
+            },
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "x": 730,
+        "y": 420,
+        "wires": [
+            [
+                "89159480a981b467"
+            ]
+        ]
+    },
+    {
+        "id": "8e73106cd1ea5770",
+        "type": "comment",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "name": "값이 있는지 확인",
+        "info": "",
+        "x": 480,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "eab5ce82d3fc3787",
+        "type": "comment",
+        "z": "f89b3214bcedc5f5",
+        "g": "4588cdf2e6cf0c23",
+        "name": "값을 payload에 옮김",
+        "info": "",
+        "x": 690,
+        "y": 360,
+        "wires": []
+    },
+    {
+        "id": "e250cdbc90946def",
+        "type": "ui-text",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "group": "8e7c63c227fac6b8",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "b4)조도",
+        "label": "조도",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 960,
+        "y": 640,
+        "wires": []
+    },
+    {
+        "id": "ed4a2e6d1677f75d",
+        "type": "mqtt in",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "name": "b1)tele/ut_iot_2026/device/SENSOR",
+        "topic": "tele/ut_iot_2026/device/SENSOR",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5599e344e541a16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 480,
+        "y": 580,
+        "wires": [
+            [
+                "6e59f6b7edbe4a1e"
+            ]
+        ]
+    },
+    {
+        "id": "6e59f6b7edbe4a1e",
+        "type": "switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "name": "b2)BH1750.Brightness",
+        "property": "payload.BH1750.Brightness",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 480,
+        "y": 640,
+        "wires": [
+            [
+                "5f2dcf38bcd48fc1"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "5f2dcf38bcd48fc1",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "name": "b3)Brightness",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.BH1750.Brightness",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 720,
+        "y": 640,
+        "wires": [
+            [
+                "e250cdbc90946def",
+                "9d9b0b0be32ec91b",
+                "5ef4716bb33278b5",
+                "20e5ad28c1c31352"
+            ]
+        ]
+    },
+    {
+        "id": "9d9b0b0be32ec91b",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "name": "b5)flow.light",
+        "rules": [
+            {
+                "t": "set",
+                "p": "light",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 970,
+        "y": 680,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "5aa7cc6d960372c9",
+        "type": "switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "c02bc73f92b38b40",
+        "name": "b7)조도기준 없으면",
+        "property": "light_threshold",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 450,
+        "y": 860,
+        "wires": [
+            [
+                "a5e2baa185ed7a50"
+            ]
+        ]
+    },
+    {
+        "id": "a5e2baa185ed7a50",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "c02bc73f92b38b40",
+        "name": "b8)500",
+        "rules": [
+            {
+                "t": "set",
+                "p": "light_threshold",
+                "pt": "flow",
+                "to": "500",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "light_threshold",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 860,
+        "wires": [
+            [
+                "f919fc992ca02cc4"
+            ]
+        ]
+    },
+    {
+        "id": "f919fc992ca02cc4",
+        "type": "ui-number-input",
+        "z": "f89b3214bcedc5f5",
+        "g": "c02bc73f92b38b40",
+        "group": "8e7c63c227fac6b8",
+        "name": "b9)점등 임계치",
+        "label": "점등 임계치",
+        "order": 4,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1000",
+        "step": "50",
+        "tooltip": "",
+        "passthru": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 780,
+        "y": 860,
+        "wires": [
+            [
+                "365ec0be6bc71052"
+            ]
+        ]
+    },
+    {
+        "id": "365ec0be6bc71052",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "c02bc73f92b38b40",
+        "name": "b10)flow.ight_threshold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "light_threshold",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 990,
+        "y": 860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "838c9079335319e7",
+        "type": "inject",
+        "z": "f89b3214bcedc5f5",
+        "g": "c02bc73f92b38b40",
+        "name": "b6)초기화",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 430,
+        "y": 800,
+        "wires": [
+            [
+                "5aa7cc6d960372c9"
+            ]
+        ]
+    },
+    {
+        "id": "48e8ebe411b51c94",
+        "type": "ui-text",
+        "z": "f89b3214bcedc5f5",
+        "g": "23d9ea9fe8277936",
+        "group": "af4123f483d4702c",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "name": "g9)가스",
+        "label": "가스",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 940,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "59027c5c60db8891",
+        "type": "switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "23d9ea9fe8277936",
+        "name": "g7)gas.value",
+        "property": "payload.gas.value",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "nnull"
+            },
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 710,
+        "y": 1760,
+        "wires": [
+            [
+                "ce0bf6ebfd92387e"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "ce0bf6ebfd92387e",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "23d9ea9fe8277936",
+        "name": "g8)gas.value",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "payload.gas.value",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 710,
+        "y": 1820,
+        "wires": [
+            [
+                "48e8ebe411b51c94",
+                "ae4f0fd12e155579",
+                "3c7f9e0644fc755c",
+                "c665b6bd5a9dbf97"
+            ]
+        ]
+    },
+    {
+        "id": "ae4f0fd12e155579",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "23d9ea9fe8277936",
+        "name": "g10)flow.gas",
+        "rules": [
+            {
+                "t": "set",
+                "p": "gas",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 950,
+        "y": 1860,
+        "wires": [
+            [
+                "8e6fc542b5baecbd"
+            ]
+        ]
+    },
+    {
+        "id": "c11cbd414ba6281a",
+        "type": "mqtt in",
+        "z": "f89b3214bcedc5f5",
+        "g": "23d9ea9fe8277936",
+        "name": "g6)tele/ut_iot_2026/device/SENSOR",
+        "topic": "tele/ut_iot_2026/device/SENSOR",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5599e344e541a16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 480,
+        "y": 1760,
+        "wires": [
+            [
+                "59027c5c60db8891"
+            ]
+        ]
+    },
+    {
+        "id": "caf5bb5829335571",
+        "type": "switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "f96c76f6980d3c0a",
+        "name": "g2)가스 기준 없으면",
+        "property": "gas_threshold",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "null"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 1,
+        "x": 440,
+        "y": 1560,
+        "wires": [
+            [
+                "30a8f9faa2e00a1e"
+            ]
+        ]
+    },
+    {
+        "id": "30a8f9faa2e00a1e",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "f96c76f6980d3c0a",
+        "name": "g3)900",
+        "rules": [
+            {
+                "t": "set",
+                "p": "gas_threshold",
+                "pt": "flow",
+                "to": "900",
+                "tot": "num"
+            },
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "gas_threshold",
+                "tot": "flow"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 620,
+        "y": 1560,
+        "wires": [
+            [
+                "f0f17a0f59ad549a",
+                "c0ef77f76697c2ee"
+            ]
+        ]
+    },
+    {
+        "id": "f0f17a0f59ad549a",
+        "type": "ui-number-input",
+        "z": "f89b3214bcedc5f5",
+        "g": "f96c76f6980d3c0a",
+        "group": "af4123f483d4702c",
+        "name": "g4)경보 임계치",
+        "label": "경보 임계치",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "topic": "topic",
+        "topicType": "msg",
+        "min": 0,
+        "max": "1000",
+        "step": "50",
+        "tooltip": "",
+        "passthru": false,
+        "sendOnBlur": true,
+        "sendOnEnter": true,
+        "className": "",
+        "clearable": false,
+        "icon": "",
+        "iconPosition": "left",
+        "iconInnerPosition": "inside",
+        "spinner": "default",
+        "x": 800,
+        "y": 1560,
+        "wires": [
+            [
+                "f45142ac5336c389",
+                "c0ef77f76697c2ee"
+            ]
+        ]
+    },
+    {
+        "id": "f45142ac5336c389",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "f96c76f6980d3c0a",
+        "name": "g5)flow.gas_threshold",
+        "rules": [
+            {
+                "t": "set",
+                "p": "gas_threshold",
+                "pt": "flow",
+                "to": "payload",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1000,
+        "y": 1560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "884d4226c7a387ee",
+        "type": "inject",
+        "z": "f89b3214bcedc5f5",
+        "g": "f96c76f6980d3c0a",
+        "name": "g1)초기화",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 430,
+        "y": 1500,
+        "wires": [
+            [
+                "caf5bb5829335571"
+            ]
+        ]
+    },
+    {
+        "id": "b4cb4dcd6864b9d4",
+        "type": "ui-text",
+        "z": "f89b3214bcedc5f5",
+        "g": "a119b1b10466261d",
+        "group": "8e7c63c227fac6b8",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "name": "p2)PIR",
+        "label": "PIR",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 900,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "622f8d5d27809f3d",
+        "type": "mqtt in",
+        "z": "f89b3214bcedc5f5",
+        "g": "a119b1b10466261d",
+        "name": "p1)tele/ut_iot_2026/device/PIR",
+        "topic": "tele/ut_iot_2026/device/PIR",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5599e344e541a16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 470,
+        "y": 1000,
+        "wires": [
+            [
+                "b4cb4dcd6864b9d4",
+                "2be73f0960518f39",
+                "4de8d9c3b1b45efb"
+            ]
+        ]
+    },
+    {
+        "id": "8e6fc542b5baecbd",
+        "type": "switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "d614b66ead45aec5",
+        "name": "g11)농도 짙으면",
+        "property": "gas",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "gt",
+                "v": "gas_threshold",
+                "vt": "flow"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 420,
+        "y": 2060,
+        "wires": [
+            [
+                "04fbd17e3b940132"
+            ],
+            [
+                "7b443c6091da99ac"
+            ]
+        ]
+    },
+    {
+        "id": "df2ed7218dbb454c",
+        "type": "ui-text",
+        "z": "f89b3214bcedc5f5",
+        "g": "d614b66ead45aec5",
+        "group": "af4123f483d4702c",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "name": "g16)경보",
+        "label": "경보",
+        "format": "{{msg.payload}}",
+        "layout": "row-spread",
+        "style": false,
+        "font": "",
+        "fontSize": 16,
+        "color": "#717171",
+        "className": "",
+        "x": 880,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "04fbd17e3b940132",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "d614b66ead45aec5",
+        "name": "g12)가스 누출",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "가스 누출",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 640,
+        "y": 2040,
+        "wires": [
+            [
+                "df2ed7218dbb454c",
+                "f1902dcd95cacd48"
+            ]
+        ]
+    },
+    {
+        "id": "7b443c6091da99ac",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "d614b66ead45aec5",
+        "name": "g15)가스 누출 없음",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "가스 누출 없음",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 650,
+        "y": 2140,
+        "wires": [
+            [
+                "df2ed7218dbb454c"
+            ]
+        ]
+    },
+    {
+        "id": "2be73f0960518f39",
+        "type": "switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "005881bb8e4584bb",
+        "name": "p3)on,off",
+        "property": "payload",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "eq",
+                "v": "on",
+                "vt": "str"
+            },
+            {
+                "t": "eq",
+                "v": "off",
+                "vt": "str"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 400,
+        "y": 1180,
+        "wires": [
+            [
+                "d490705351e7b53e",
+                "da2a798c8b8d9047"
+            ],
+            [
+                "a3f66cce0bcd18db"
+            ]
+        ]
+    },
+    {
+        "id": "d490705351e7b53e",
+        "type": "switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "005881bb8e4584bb",
+        "name": "p4)어두우면",
+        "property": "light",
+        "propertyType": "flow",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "light_threshold",
+                "vt": "flow"
+            },
+            {
+                "t": "else"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 2,
+        "x": 630,
+        "y": 1140,
+        "wires": [
+            [
+                "76c0623520f4813c"
+            ],
+            []
+        ]
+    },
+    {
+        "id": "a3f66cce0bcd18db",
+        "type": "trigger",
+        "z": "f89b3214bcedc5f5",
+        "g": "005881bb8e4584bb",
+        "name": "p6)delay10",
+        "op1": "",
+        "op2": "off",
+        "op1type": "nul",
+        "op2type": "str",
+        "duration": "10",
+        "extend": true,
+        "overrideDelay": false,
+        "units": "s",
+        "reset": "",
+        "bytopic": "all",
+        "topic": "topic",
+        "outputs": 1,
+        "x": 650,
+        "y": 1260,
+        "wires": [
+            [
+                "76c0623520f4813c"
+            ]
+        ]
+    },
+    {
+        "id": "76c0623520f4813c",
+        "type": "mqtt out",
+        "z": "f89b3214bcedc5f5",
+        "g": "005881bb8e4584bb",
+        "name": "p8)cmnd/ut_iot_2026/device/LED_1",
+        "topic": "cmnd/ut_iot_2026/device/LED_1",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "b5599e344e541a16",
+        "x": 980,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "8cb670b34bdf40a7",
+        "type": "mqtt in",
+        "z": "f89b3214bcedc5f5",
+        "g": "005881bb8e4584bb",
+        "name": "p9)stat/ut_iot_2026/device/LED_1",
+        "topic": "stat/ut_iot_2026/device/LED_1",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5599e344e541a16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 480,
+        "y": 1320,
+        "wires": [
+            [
+                "c4cd764cf3132e98"
+            ]
+        ]
+    },
+    {
+        "id": "c4cd764cf3132e98",
+        "type": "ui-switch",
+        "z": "f89b3214bcedc5f5",
+        "g": "005881bb8e4584bb",
+        "name": "p10)조명1",
+        "label": "조명1",
+        "group": "8e7c63c227fac6b8",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": false,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-spread",
+        "clickableArea": "switch",
+        "onvalue": "on",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "off",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "x": 870,
+        "y": 1320,
+        "wires": [
+            [
+                "76c0623520f4813c"
+            ]
+        ]
+    },
+    {
+        "id": "da2a798c8b8d9047",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "005881bb8e4584bb",
+        "name": "p5)msg.reset",
+        "rules": [
+            {
+                "t": "set",
+                "p": "reset",
+                "pt": "msg",
+                "to": "",
+                "tot": "num"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 630,
+        "y": 1200,
+        "wires": [
+            [
+                "a3f66cce0bcd18db"
+            ]
+        ]
+    },
+    {
+        "id": "f1902dcd95cacd48",
+        "type": "change",
+        "z": "f89b3214bcedc5f5",
+        "g": "d614b66ead45aec5",
+        "name": "g13)가스가 누출되었습니다.",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "경보! 가스가 누출되었습니다.",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 920,
+        "y": 2000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b910b1810284cd4a",
+        "type": "comment",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "name": "값이 있는지 확인",
+        "info": "",
+        "x": 460,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "d4bd6cdff425b929",
+        "type": "comment",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "name": "값을 payload에 옮김",
+        "info": "",
+        "x": 730,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "548551568babd8f2",
+        "type": "mqtt in",
+        "z": "f89b3214bcedc5f5",
+        "g": "f96c76f6980d3c0a",
+        "name": "g6)stat/ut_iot_2026/device/THRESHOLD",
+        "topic": "stat/ut_iot_2026/device/THRESHOLD",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "b5599e344e541a16",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 560,
+        "y": 1620,
+        "wires": [
+            [
+                "f0f17a0f59ad549a"
+            ]
+        ]
+    },
+    {
+        "id": "c0ef77f76697c2ee",
+        "type": "mqtt out",
+        "z": "f89b3214bcedc5f5",
+        "g": "f96c76f6980d3c0a",
+        "name": "g7)cmnd/ut_iot_2026/device/THRESHOLD",
+        "topic": "cmnd/ut_iot_2026/device/THRESHOLD",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "b5599e344e541a16",
+        "x": 930,
+        "y": 1620,
+        "wires": []
+    },
+    {
+        "id": "5ef4716bb33278b5",
+        "type": "ui-gauge",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "name": "Lightness 조도 Gauge",
+        "group": "d8da9fbbb392ad71",
+        "order": 2,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "조도 Gauge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "lux",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "700",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "900",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1000",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 1000,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3c7f9e0644fc755c",
+        "type": "ui-gauge",
+        "z": "f89b3214bcedc5f5",
+        "g": "23d9ea9fe8277936",
+        "name": "Gas Gauge",
+        "group": "d8da9fbbb392ad71",
+        "order": 1,
+        "value": "payload",
+        "valueType": "msg",
+        "width": 3,
+        "height": 3,
+        "gtype": "gauge-half",
+        "gstyle": "needle",
+        "title": "가스 Gquge",
+        "alwaysShowTitle": false,
+        "floatingTitlePosition": "top-left",
+        "units": "ADC",
+        "icon": "",
+        "prefix": "",
+        "suffix": "",
+        "segments": [
+            {
+                "from": "0",
+                "color": "#5cd65c",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "1200",
+                "color": "#ffc800",
+                "text": "",
+                "textType": "label"
+            },
+            {
+                "from": "1400",
+                "color": "#ea5353",
+                "text": "",
+                "textType": "label"
+            }
+        ],
+        "min": 0,
+        "max": "1500",
+        "sizeThickness": 16,
+        "sizeGap": 4,
+        "sizeKeyThickness": 8,
+        "styleRounded": true,
+        "styleGlow": false,
+        "className": "",
+        "x": 950,
+        "y": 1780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "c665b6bd5a9dbf97",
+        "type": "ui-chart",
+        "z": "f89b3214bcedc5f5",
+        "g": "23d9ea9fe8277936",
+        "group": "029ad81a3c6cce63",
+        "name": "Gas Chart",
+        "label": "가스 Chart",
+        "order": 1,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "5",
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "50",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 950,
+        "y": 1740,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "20e5ad28c1c31352",
+        "type": "ui-chart",
+        "z": "f89b3214bcedc5f5",
+        "g": "9d5bd3f60aa80cd7",
+        "group": "029ad81a3c6cce63",
+        "name": "Lightness Chart",
+        "label": "조도 Chart",
+        "order": 2,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "5",
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "50",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 980,
+        "y": 560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4de8d9c3b1b45efb",
+        "type": "ui-chart",
+        "z": "f89b3214bcedc5f5",
+        "g": "a119b1b10466261d",
+        "group": "029ad81a3c6cce63",
+        "name": "Motion chart",
+        "label": "모션 인식 Chart",
+        "order": 3,
+        "chartType": "line",
+        "category": "topic",
+        "categoryType": "msg",
+        "xAxisLabel": "",
+        "xAxisProperty": "",
+        "xAxisPropertyType": "timestamp",
+        "xAxisType": "time",
+        "xAxisFormat": "",
+        "xAxisFormatType": "auto",
+        "xmin": "",
+        "xmax": "",
+        "yAxisLabel": "",
+        "yAxisProperty": "payload",
+        "yAxisPropertyType": "msg",
+        "ymin": "",
+        "ymax": "",
+        "bins": 10,
+        "action": "append",
+        "stackSeries": false,
+        "pointShape": "circle",
+        "pointRadius": 4,
+        "showLegend": true,
+        "removeOlder": "5",
+        "removeOlderUnit": "60",
+        "removeOlderPoints": "50",
+        "colors": [
+            "#0095ff",
+            "#ff0000",
+            "#ff7f0e",
+            "#2ca02c",
+            "#a347e1",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "textColor": [
+            "#666666"
+        ],
+        "textColorDefault": true,
+        "gridColor": [
+            "#e5e5e5"
+        ],
+        "gridColorDefault": true,
+        "width": 6,
+        "height": "4",
+        "className": "",
+        "interpolation": "linear",
+        "x": 910,
+        "y": 980,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "b5599e344e541a16",
+        "type": "mqtt-broker",
+        "name": "HiveMQ",
+        "broker": "broker.hivemq.com",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "",
+        "birthQos": "0",
+        "birthRetain": "false",
+        "birthPayload": "",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closeRetain": "false",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willRetain": "false",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "e0a71bc26ae2a7c4",
+        "type": "ui-group",
+        "name": "기기상태",
+        "page": "6c6becceb8d817ea",
+        "width": "3",
+        "height": "1",
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "8e7c63c227fac6b8",
+        "type": "ui-group",
+        "name": "PIR",
+        "page": "6c6becceb8d817ea",
+        "width": "3",
+        "height": "1",
+        "order": 2,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "af4123f483d4702c",
+        "type": "ui-group",
+        "name": "GAS",
+        "page": "6c6becceb8d817ea",
+        "width": "3",
+        "height": "1",
+        "order": 3,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "d8da9fbbb392ad71",
+        "type": "ui-group",
+        "name": "Gauges",
+        "page": "6c6becceb8d817ea",
+        "width": 6,
+        "height": 1,
+        "order": 4,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "029ad81a3c6cce63",
+        "type": "ui-group",
+        "name": "Charts",
+        "page": "6c6becceb8d817ea",
+        "width": 6,
+        "height": 1,
+        "order": 5,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "6c6becceb8d817ea",
+        "type": "ui-page",
+        "name": "13-1 pir gas relay",
+        "ui": "50778af16ef75ebc",
+        "path": "/page4",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "df0ca919ad9162d9",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 2,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "50778af16ef75ebc",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true,
+        "allowInstall": false
+    },
+    {
+        "id": "df0ca919ad9162d9",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "5248c6415ff47f84",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "@flowfuse/node-red-dashboard": "1.30.2"
+        }
+    }
+]
